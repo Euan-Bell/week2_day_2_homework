@@ -6,10 +6,10 @@ require_relative("../fish.rb")
 
 class RiverTest < MiniTest::Test
 
-def setup
+  def setup
 
 
-end
+  end
 
 
 
