@@ -7,4 +7,7 @@ class Bear
     @empty_stomach = []
   end
 
+  def bear_roar
+    return "Roar"
+  end
 end
