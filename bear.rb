@@ -1,8 +1,10 @@
 class Bear
 
-  def initialize(name, queue)
+  attr_reader(:bear_name)
+
+  def initialize(bear_name)
     @bear_name = bear_name
-    @empty_stomach = empty_stomach
+    @empty_stomach = []
   end
 
 end
