@@ -1,9 +1,7 @@
-class fish
+class Fish
 
-def initialize(:name)
-  @fish_name = fish_name
-end
-
-
+  def initialize(name)
+    @name = name
+  end
 
 end
